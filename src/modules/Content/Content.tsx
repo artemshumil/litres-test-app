@@ -63,7 +63,7 @@ class Content extends React.Component<ContentProps, ContentState> {
     }
 
     fetchData() {
-        this.dataFetchTimeout = setTimeout(() => this.tryGetData(), 1000)
+        this.dataFetchTimeout = setTimeout(() => this.tryGetData(), 5000)
     };
 
     componentDidUpdate(prevProps: Readonly<ContentProps>, prevState: Readonly<ContentState>, snapshot?: any): void {
