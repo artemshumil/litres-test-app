@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c38eddb1-1ef0-40fc-91ae-63692f649bfd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/Chart/Chart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Chart/Chart.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/Content/Content.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Content/Content.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +12,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="bd87fb76-62eb-4eb7-9b9c-a7015d51f5f3" />
   </component>
   <component name="ProjectId" id="1YwplsCH0lhWth1eh2DR2BL8INO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -85,7 +85,7 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\artem\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -96,7 +96,7 @@
       <updated>1583863664293</updated>
       <workItem from="1583863666393" duration="10775000" />
       <workItem from="1583949138432" duration="11081000" />
-      <workItem from="1584037536761" duration="4515000" />
+      <workItem from="1584037536761" duration="4760000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1584040636194</created>
@@ -105,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584040636194</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Default">
+      <created>1584042108866</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584042108866</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +134,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Default" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default" />
   </component>
 </project>
