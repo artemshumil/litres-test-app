@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c38eddb1-1ef0-40fc-91ae-63692f649bfd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_actions/user.actions.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_constants/_constants.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_reducer/reducer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_service/user.service.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_tools/store.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_tools/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/Chart/Chart.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/Content/Content.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/Chart/Chart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Chart/Chart.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/Content/Content.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/Content/Content.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +34,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="ts.external.directory.path" value="F:\WebProjects\litres_test_task\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
@@ -114,8 +96,16 @@
       <updated>1583863664293</updated>
       <workItem from="1583863666393" duration="10775000" />
       <workItem from="1583949138432" duration="11081000" />
-      <workItem from="1584037536761" duration="3019000" />
+      <workItem from="1584037536761" duration="4515000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1584040636194</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584040636194</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,5 +126,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>

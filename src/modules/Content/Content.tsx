@@ -28,8 +28,9 @@ class Content extends React.Component<ContentProps, ContentState> {
         this.tryRegister = this.tryRegister.bind(this);
         this.tryGetData = this.tryGetData.bind(this);
         this.tryLogout = this.tryLogout.bind(this);
+        this.fetchData = this.fetchData.bind(this);
     }
-
+    dataFetchTimeout: any = -1;
     state = {
         login: 'qweqwe',
         pwd: 'qweqwe'
@@ -52,14 +53,32 @@ class Content extends React.Component<ContentProps, ContentState> {
         }
     }
 
-    tryGetData (e: MouseEvent) {
-        e.preventDefault();
-        this.props.getData();
+    tryGetData () {
+        return this.props.getData();
     }
 
     tryLogout (e: MouseEvent) {
         e.preventDefault();
         this.props.logout();
+    }
+
+    fetchData() {
+        this.dataFetchTimeout = setTimeout(() => this.tryGetData(), 1000)
+    };
+
+    componentDidUpdate(prevProps: Readonly<ContentProps>, prevState: Readonly<ContentState>, snapshot?: any): void {
+        const {loggedIn, data_fetching} = this.props;
+
+        if (prevProps.loggedIn !== loggedIn && loggedIn)
+            this.tryGetData();
+
+        if (prevProps.data_fetching !== data_fetching) {
+            if (loggedIn && !data_fetching) {
+                this.fetchData();
+            } else {
+                clearTimeout(this.dataFetchTimeout);
+            }
+        }
     }
 
     render () {
@@ -68,9 +87,9 @@ class Content extends React.Component<ContentProps, ContentState> {
             {loggedIn ?
                 <>
                     <div className="header">
-                        {data_fetching ? 'data_fetching' : ''} <br/>
+                        {data_fetching ? 'Fetching Data' : ''}
                         <button className="action-button logout" onClick={this.tryLogout}>Logout</button>
-                        <button className="action-button" onClick={this.tryGetData}>Data</button>
+                        {/*<button className="action-button" onClick={this.tryGetData}>Data</button>*/}
                     </div>
                     {data?.graphsArray ?
                         <Chart data={data} /> :

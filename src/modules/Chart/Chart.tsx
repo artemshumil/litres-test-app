@@ -19,7 +19,7 @@ const Chart: React.FunctionComponent<TChart> = ({data}) => {
 
     const chartData = useMemo<TChartSeries[]>(() => {
         return data.graphsArray.map(line => ({
-            id: line.data ? line.data[0].name : line.id,
+            id: (line.data && line.data[0]) ? line.data[0].name : line.id,
             color: 'blue',
             data: (line.data && line.data.map) ? line.data.map((elem, i) => ({x: new Date(elem.date), y: elem.value})) : []
         }))

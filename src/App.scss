@@ -28,14 +28,13 @@ p {
 }
 .header {
   position: relative;
+  height: 40px;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .content {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  margin: auto;
   height: 100vh;
   overflow: auto;
 }
@@ -115,6 +114,7 @@ p {
   cursor: pointer;
   position: absolute;
   right: 0;
+  top: 5px;
   background: #00adff;
   color: white;
   border-radius: 4px;
